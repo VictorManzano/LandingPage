@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+::selection {
+    background-color: rgb(101, 11, 153);
+}
+
+main {
+    display: flex;
+    width: 100vw;
+    height: 450px;
+    margin-top: 30px;
+}
+
+.DivEsquerda {
+    background-color: rgb(34, 34, 34);
+    height: 100%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 100px;
+    gap: 30px;
+}
+
+.titulo {
+    font-size: 40px;
+    color: white;
+}
+
+.titulo span {
+    font-size: 40px;
+    color: rgb(132, 14, 201);
+    font-weight: bold;
+}
+
+.texto {
+    font-size: 15px;
+    color: white;
+    text-decoration-color: blue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    height: 20px;
+    padding: 15px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 15px;
+    box-shadow: 6px 4px 16px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 4px 16px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 4px 16px -6px rgba(0,0,0,0.75);
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(101, 11, 153);
+    cursor: pointer;
+}
+
+
+
+.DivDireita {
+    width: 600px;
+    height: 500px;
+}
+
+img {
+    width: 600px;
+    height: 400px;
+}
